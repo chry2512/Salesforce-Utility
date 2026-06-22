@@ -1,0 +1,29 @@
+<!--
+  @description       : Component for manage Price
+  @author            : Christian Niro
+  @group             : Christian Niro
+  @last modified on  : 05-27-2024
+  @last modified by  : 
+-->
+<template>
+    <lightning-card title="Price Management" icon-name="custom:custom14">
+        <div class="slds-p-around_medium ">
+            <lightning-layout>
+                <lightning-layout-item size="10">
+                    <div class="space-label">
+                        Product Name: <c-looku-page  onselected={selectedRecord} onclearevent={clearEvent}></c-looku-page>
+                    </div>
+                    <div class="space-label">
+                        Price List Name: <c-custom-look-price onselected={selectedRecord} onclearevent={clearEvent}></c-custom-look-price>
+                    </div>
+                    <div class="space-label">
+                        <lightning-input label="Price Amount:" type="number" value={amount} onchange={handlePriceAmountChange}></lightning-input> 
+                    </div> 
+                </lightning-layout-item>
+            </lightning-layout> 
+            <div class="space space slds-align_absolute-center">
+                <lightning-button label="Create Price" onclick={createPrice}></lightning-button>
+            </div>
+        </div> 
+    </lightning-card> 
+</template>

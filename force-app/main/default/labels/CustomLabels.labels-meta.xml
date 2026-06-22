@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Aiutarti</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Aiutarti</shortDescription>
+        <value>Come posso aiutarti ?</value>
+    </labels>
+    <labels>
+        <fullName>ChatGpt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ChatGpt</shortDescription>
+        <value>ChatGpt</value>
+    </labels>
+    <labels>
+        <fullName>DelayMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DelayMessage</shortDescription>
+        <value>Attenzione ! Il Processo di Elaborazione richiede più tempo del previsto per la quantità di dati presente, riceverai un e-mail  appena terminato il processo che ti consentirà di riprendere da dove avevi lasciato.</value>
+    </labels>
+    <labels>
+        <fullName>DelayTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DelayTitle</shortDescription>
+        <value>Processo Elaborazione Alert:</value>
+    </labels>
+    <labels>
+        <fullName>DescriptionSecondStep</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Descrizione Secondo Step</shortDescription>
+        <value>Questo processo avvia l&apos;estrazione dei records della staging area...puoi decidere se scaricare il file direttamente sul pc</value>
+    </labels>
+    <labels>
+        <fullName>Descrizione_Secondo_Step2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Descrizione Secondo Step2</shortDescription>
+        <value>oppure mandare una mail all&apos;Help Desk</value>
+    </labels>
+    <labels>
+        <fullName>Disabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disabled</shortDescription>
+        <value>Disabled</value>
+    </labels>
+    <labels>
+        <fullName>Download_File</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download File</shortDescription>
+        <value>Download File</value>
+    </labels>
+    <labels>
+        <fullName>Enabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enabled</shortDescription>
+        <value>Enabled</value>
+    </labels>
+    <labels>
+        <fullName>Estrazione</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Estrazione</shortDescription>
+        <value>Estrazione in corso...</value>
+    </labels>
+    <labels>
+        <fullName>Grazie</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Grazie,</shortDescription>
+        <value>Grazie,</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>NoProductFound</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoProductFound</shortDescription>
+        <value>No Product  Found</value>
+    </labels>
+    <labels>
+        <fullName>Previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Processo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processo</shortDescription>
+        <value>il processo si è concluso correttamente.</value>
+    </labels>
+    <labels>
+        <fullName>QueryClassExceptionBindsMethod</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QueryClassExceptionBindsMethod</shortDescription>
+        <value>WARNING ! ERROR ON QUERY WITH BINDS METHOD ! THE RETURN VALUE IS NULL</value>
+    </labels>
+    <labels>
+        <fullName>QueryClassExceptionOverrideMethods</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QueryClassExceptionOverrideMethods</shortDescription>
+        <value>WARNING! ERROR ON QUERY WITH GET OBJECT INSTANCE OVERRIDE METHODS! THE RETURN VALUE IS NULL</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchProduct_CardTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchProduct_CardTitle</shortDescription>
+        <value>Product Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchProduct_ClearInputButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchProduct_ClearInputButton</shortDescription>
+        <value>Clear Input</value>
+    </labels>
+    <labels>
+        <fullName>SearchProduct_InputLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchProduct_InputLabel</shortDescription>
+        <value>Search Product</value>
+    </labels>
+    <labels>
+        <fullName>SearchProduct_InputPlaceholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchProduct_InputPlaceholder</shortDescription>
+        <value>Insert Product Name</value>
+    </labels>
+    <labels>
+        <fullName>Send_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Email</shortDescription>
+        <value>Send Email</value>
+    </labels>
+    <labels>
+        <fullName>ShowDetails</fullName>
+        <categories>error panel</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShowDetails</shortDescription>
+        <value>Show Details</value>
+    </labels>
+    <labels>
+        <fullName>Start</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>TitleProcessoEstrazione</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Titolo processo estrazione</shortDescription>
+        <value>Processo Estrazione</value>
+    </labels>
+    <labels>
+        <fullName>TriggerManagerExceptionStringBlank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TriggerManagerExceptionStringBlank</shortDescription>
+        <value>Error, The String name of trigger is Blank</value>
+    </labels>
+    <labels>
+        <fullName>UtilsExceptionPicklistValues</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UtilsExceptionPicklistValues</shortDescription>
+        <value>ERROR ON IP_UtilsException.getPicklistValuesMap: FieldResult is Empty</value>
+    </labels>
+    <labels>
+        <fullName>friendlyMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>friendlyMessage</shortDescription>
+        <value>Error Retrieving Data</value>
+    </labels>
+<labels>
+        <fullName>Upload_Files</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upload Files</shortDescription>
+        <value>Upload Files</value>
+    </labels>
+<labels>
+        <fullName>or_Drop_Files</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>or Drop Files</shortDescription>
+        <value>or Drop Files</value>
+    </labels>
+ <labels>
+        <fullName>InvalidCharacter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InvalidCharacter</shortDescription>
+        <value>Invalid escaped character</value>
+    </labels>
+<labels>
+        <fullName>InvalidQuote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InvalidQuote</shortDescription>
+        <value>Invalid quote in unquoted cell</value>
+    </labels>
+ <labels>
+        <fullName>CellMismatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CellMismatch</shortDescription>
+        <value>A separator character (; - or - ,) in your input is causing a mismatch between the header and value of the columns.</value>
+    </labels>
+  <labels>
+        <fullName>DuplicateHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DuplicateHeader</shortDescription>
+        <value>Duplicate headers detected</value>
+    </labels>
+</CustomLabels>

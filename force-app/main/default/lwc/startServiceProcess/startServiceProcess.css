@@ -1,0 +1,31 @@
+/* Created by Christian Niro*/
+
+.bar-features{
+    --slds-g-color-brand-base-50: var(--slds-g-color-palette-red-30) !important;
+    --lwc-progressBarColorBackgroundFill:#c2003c;
+    size: "medium";
+    align-items: center;
+    
+}
+
+
+.container-bar{
+    width: 85%;
+    align-items: center;
+    margin-left: 62px;
+    margin-top: 256px;
+    margin-bottom: 50px;
+}
+
+.forth-button{
+    margin-top: 228px;
+    margin-bottom: 43px;
+    width:15%;
+    color:black;
+    margin-left: 80%;
+}
+
+.opacity{
+    opacity: 0.3;
+    cursor: not-allowed;
+}

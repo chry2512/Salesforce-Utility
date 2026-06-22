@@ -1,0 +1,393 @@
+:host {
+    /* Removes SF Card Header padding/margin top/bottom only */
+    --slds-c-card-header-spacing-block-end: 0px;
+    --slds-c-card-header-spacing-block-start: 0px;
+
+    /* Removes SF Card body padding/margin top/bottom only */
+    --slds-c-card-body-spacing-block-start: 0px;
+    --slds-c-card-body-spacing-block-end: 0px;
+
+    --slds-g-color-brand-base-50:  var(--slds-g-color-palette-red-30) !important;
+    --slds-g-color-brand-base-60:  rgb(128, 0, 0);
+    --lwc-progressColorBorderActive: rgb(128, 0, 0);
+    --lwc-progressColorBackgroundFill: rgb(128, 0, 0);
+    --lwc-progressBarColorBackgroundFill: rgb(128, 0, 0);  
+}
+/*-----CARATTERISTICHE GENERALI-------*/
+/*aggiunta per modificare l'interfaccia per evitare che superi una certa dimensione*/
+.template{
+    max-height: 670px;
+}
+/*dimensioni immagine header*/
+.img-dimensions{
+  width:100%;
+  margin: 0; 
+  padding: 0; 
+  margin-bottom: 15px;
+}
+
+/*opacità button Next & Previous*/
+.opacity{
+    opacity: 0.3;
+}
+
+/*dimensioni immagine logo*/
+.img-logo{
+    height: 20%; 
+    width: 20%; 
+    margin-left: 15px;
+}
+
+/*container dei button e della progress bar*/
+.custom-container{
+    background-color: #f3f2f2;
+    max-width: 95%;
+    margin-left: 23px;
+    border-radius: 15px;
+    height:3rem;
+    margin-bottom: 10px;
+}
+
+/*stili dei button*/
+.buttonNext-style {
+    float: right;
+    margin-top: -7px;
+    margin-right: 25px;
+}
+
+.buttonPrevious-style {
+    float: left;
+    margin-top: -7px;
+    margin-left: 12px;
+}
+
+
+
+/*------CARATTERISTICHE PRIMO STEP----------*/
+
+/*distanza bottone start*/
+.distance-button{
+    margin-top: 198px;
+}
+
+/*bottone di start*/
+.first-button{
+    margin-top: 30px;
+    margin-bottom: 32px;
+    width:35%;
+    /*
+    height:30%;
+    */
+    color:white;
+    
+}
+
+
+
+/*------CARATTERISTICHE SECONDO STEP--------*/
+
+/*distanze primo toggle*/
+.distance-firstToggle{
+    margin-left: 38px;
+    margin-top:49px;
+}
+
+/*distanze secondo toggle*/
+.distance-secondToggle{
+    margin-left: 38px;
+    margin-bottom: 38px;
+}
+
+/*distanza secondoStep*/
+.distance-secondStep{
+    margin-top: 80px;
+}
+
+/*proprietà testo secondo step*/
+.txt-secondoStep{
+    margin-left: 40px; 
+    margin-top: 14px;
+}
+
+/*adattatore per dimensioni*/
+.content-max{
+    max-width: max-content;
+    max-height: max-content;
+    min-height: max-content;
+    max-width: max-content;
+}
+
+/*header dei modali*/
+.my-modal-header {
+    --slds-c-modal-header-color-background: LightGray;
+    float: left;
+    height: 5%;
+    width: 85%;
+    padding: 0;
+}
+
+/*css per i toggle button*/
+.slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux{
+    border-color: #c2003c!important;
+    background-color: #c2003c!important;
+}
+
+
+
+/*Blocco che contiene il titolo del secondo step*/
+.container-presentation{
+    background-color: #f3f2f2;
+    max-width: 85%;
+    margin-left: 35px;
+    border-radius: 15px;
+    height:2rem;
+}
+    
+/*-----CARATTERISTICHE TERZO STEP--------*/
+
+/*caratteristiche del terzo input*/
+.third-input{
+    text-align: center;
+    color: black !important;
+    margin-top:138px;;/* valore originale 190 px*/
+    margin-bottom:25px;
+}
+
+/*css per colorare la progress bar indicator*/
+.custom-css {   
+   
+    --slds-g-color-brand-base-50:  var(--slds-g-color-palette-red-30) !important;
+    --slds-g-color-brand-base-60:  rgb(128, 0, 0);
+    --lwc-progressColorBorderActive: rgb(128, 0, 0);
+    --lwc-progressColorBackgroundFill: rgb(128, 0, 0);
+    --lwc-progressBarColorBackgroundFill: rgb(128, 0, 0);  
+   
+}
+/*Distanza titolo*/
+.third-page-title{
+    float:left;
+    margin-top:8px;
+    margin-left:12px;
+}
+
+.sixth-page-title{
+    float:left;
+    margin-top:8px;
+    margin-left:12px;
+}
+
+/*caratteristiche della icona della terza pagina*/
+.icon-feature{
+    float: left; 
+    margin-top:10px;
+    margin-left: 24px;
+}
+
+
+/*modifiche colore button input*/
+.input-personal{
+
+    float:center;
+    text-align:center;
+    color:black!important;
+    --lwc-text-decoration-color:#c2003c!important;
+    --lwc-colorTextLabel: black!important;
+    --lwc-colorBorderInput:#c2003c;
+}
+
+/*da inserire nel figlio*/
+.bar-features{
+    --lwc-progressBarColorBackgroundFill:#c2003c;
+    size: "medium";
+    align-items: center;
+    
+}
+
+.container-bar{
+    width: 85%;
+    align-items: center;
+    margin-left: 62px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.download-message-container {
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+
+.report-message-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.distance-sixthStep{
+    margin-top: 20px;
+    
+}
+.thanks-margin1{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.download-message p {
+    font-size: 25px;
+}
+
+.report-message p {
+    font-size: 22px;
+}
+
+.error-message-icon {
+    --sds-c-icon-color-background: #c22020;
+}
+
+.success-message-icon {
+    --sds-c-icon-color-background: #45c65a;
+}
+
+.forth-button{
+    margin-top: 228px;
+    margin-bottom: 53px;
+    width:15%;
+    color:black;
+    margin-left: 80%;
+}
+
+.thanks-margin{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/* tentativi di modifica colore bottoni pop up di conferma */
+.slds-button_brand {
+    --sds-c-button-brand-color-background: #c2003c!important;
+}
+
+.slds-button_neutral {
+    --sds-c-button-text-color: #c2003c!important;
+}
+
+/*Blocco che contiene il titolo del secondo step*/
+.container-presentation-sixthStep{
+    background-color: #f3f2f2;
+    max-width: 90%;
+    margin-left: 35px;
+    border-radius: 15px;
+    height:2rem;
+}
+
+/* Blocco contenente attributi per i toggle del first step*/
+.toggleFirstStep{
+    position:relative;
+    margin-left: 2%;
+}
+
+.marginTopToggle{
+    margin-top: 16px;
+}
+
+.cache-reset{
+    position: absolute;
+    margin-top: 2%;
+    color: #9f2800;
+    padding: 1%;
+    z-index: 2;
+    margin-left: 89%;
+    border-radius:32px;
+    border:1px solid #9f2800;
+    width: 10%;
+}
+
+
+.generate-template{
+    margin-top: 7%;
+    color: #9f2800;
+    padding: 1%;
+    z-index: 2;
+    margin-left: 89%;
+    border-radius:32px;
+    border:1px solid #9f2800;
+    width: 10%;
+}
+
+
+.cache-reset:hover{
+    background-color: #dadada;
+}
+
+
+.cache-reset:focus{
+    background-color: #cecece;
+}
+
+.title-toggle-margin{
+    margin-bottom: 7px;
+}
+
+.containerToggle{
+    display: block;
+    position: relative;
+    width: 10px;
+}
+
+.nowrap{
+    text-wrap: nowrap;
+}
+
+.red-dot-spinner .slds-spinner__dot {
+    background-color: #c2003c!important; 
+}
+
+
+/* Custom- Spinner - Css */
+
+.slds-spinner_container{position:absolute;top:0;right:0;bottom:0;left:0;z-index:9050;background-color:hsla(0,0%,100%,.75);visibility:visible;opacity:1;transition:opacity .2s ease,visibility 0;transition-delay:0s,.3s;}
+.slds-spinner{position:absolute;top:50%;left:50%;z-index:9051;transform:translate(-50%,-50%) rotate(90deg);}
+.slds-spinner,.slds-spinner__dot-a,.slds-spinner__dot-b{transform-origin:50% 50%;will-change:transform}
+.slds-spinner__dot-a,.slds-spinner__dot-b{position:absolute;top:0;left:0;width:100%;}
+.slds-spinner:after,.slds-spinner:before,.slds-spinner__dot-a:after,.slds-spinner__dot-a:before,.slds-spinner__dot-b:after,.slds-spinner__dot-b:before{content:"";position:absolute;border-radius:50%;animation-duration:1s;animation-iteration-count:infinite;transform:translateZ(0)}
+.slds-spinner__dot-a{transform:rotate(60deg)}
+.slds-spinner__dot-b{transform:rotate(120deg)}
+.slds-spinner:before{animation-delay:-.083s;background:#c2003c!important;}
+.slds-spinner__dot-a:before{animation-delay:.083s;background:#c2003c!important;}
+.slds-spinner__dot-b:before{animation-delay:.25s;background:#c2003c!important;}
+.slds-spinner:after{animation-delay:.41666667s;background:#c2003c!important;}
+.slds-spinner__dot-a:after{animation-delay:.583s;background:#c2003c!important;}
+.slds-spinner__dot-b:after{animation-delay:.75s;background:#c2003c!important;}
+
+
+@keyframes dotsBounceBefore-medium {
+    0%{transform:translateZ(0)}
+    60%{transform:translateZ(0);animation-timing-function:cubic-bezier(.55,.085,.68,.53)}
+    80%{transform:translate3d(-.5rem,0,0);animation-timing-function:cubic-bezier(0,1.11,.7,1.43)}
+    to{transform:translateZ(0)}
+}
+
+@keyframes dotsBounceAfter-medium {
+    0%{transform:translateZ(0)}
+    60%{transform:translateZ(0);animation-timing-function:cubic-bezier(.55,.085,.68,.53)}
+    80%{transform:translate3d(.5rem,0,0);animation-timing-function:cubic-bezier(0,1.11,.7,1.43)}
+    to{transform:translateX(0)}
+}
+
+.slds-spinner–large,.slds-spinner_large{width:2.75rem}
+.slds-spinner–large .slds-spinner__dot-a:after,.slds-spinner–large .slds-spinner__dot-a:before,.slds-spinner–large .slds-spinner__dot-b:after,.slds-spinner–large .slds-spinner__dot-b:before,.slds-spinner–large.slds-spinner:after,.slds-spinner–large.slds-spinner:before,.slds-spinner_large .slds-spinner__dot-a:after,.slds-spinner_large .slds-spinner__dot-a:before,.slds-spinner_large .slds-spinner__dot-b:after,.slds-spinner_large .slds-spinner__dot-b:before,.slds-spinner_large.slds-spinner:after,.slds-spinner_large.slds-spinner:before{width:.625rem;height:.625rem}
+.slds-spinner–large .slds-spinner__dot-a:before,.slds-spinner–large .slds-spinner__dot-b:before,.slds-spinner–large.slds-spinner:before,.slds-spinner_large .slds-spinner__dot-a:before,.slds-spinner_large .slds-spinner__dot-b:before,.slds-spinner_large.slds-spinner:before{animation-name:dotsBounceBefore-medium;top:-.3125rem;left:-.3125rem}
+.slds-spinner–large .slds-spinner__dot-a:after,.slds-spinner–large .slds-spinner__dot-b:after,.slds-spinner–large.slds-spinner:after,.slds-spinner_large .slds-spinner__dot-a:after,.slds-spinner_large .slds-spinner__dot-b:after,.slds-spinner_large.slds-spinner:after{animation-name:dotsBounceAfter-medium;top:-.3125rem;right:-.3125rem}
+
+@keyframes dotsBounceBefore-large {
+    0%{transform:translateZ(0)}
+    60%{transform:translateZ(0);animation-timing-function:cubic-bezier(.55,.085,.68,.53)}
+    80%{transform:translate3d(-.75rem,0,0);animation-timing-function:cubic-bezier(0,1.11,.7,1.43)}
+    to{transform:translateX(0)}
+}
+
+@keyframes dotsBounceAfter-large {
+    0%{transform:translateZ(0)}
+    60%{transform:translateZ(0);animation-timing-function:cubic-bezier(.55,.085,.68,.53)}
+    80%{transform:translate3d(.75rem,0,0);animation-timing-function:cubic-bezier(0,1.11,.7,1.43)}
+    to{transform:translateX(0)}
+}

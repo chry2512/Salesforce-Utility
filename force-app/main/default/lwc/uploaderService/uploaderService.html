@@ -1,0 +1,58 @@
+<!--
+  @description       : Component Child for Upload File
+  @author            : Christian Niro
+  @group             : Christian Niro(TMLAB by Spindox)
+  @last modified on  : 05-16-2024
+  @last modified by  : 
+-->
+
+<template>
+    <!-- spinner-->
+    <template if:true={showLoadingSpinner}>
+        <div style="z-index: 10000 !important;">
+            <lightning-spinner alternative-text="Uploading" size="medium" style="z-index: 10000 !important;"></lightning-spinner>
+        </div>
+    </template>
+     <!-- input Upload OLD-->
+    <template lwc:if={boosterMode}>
+        <div class="slds-form-element">
+            <span class="slds-form-element__label" id="form-label-583" data-form-label=""></span>
+            <div class="slds-form-element__control">
+                <div class="slds-file-selector slds-file-selector_files">
+                    <div class="slds-file-selector__dropzone">
+                        <input type="file" class="slds-file-selector__input slds-assistive-text" accept=".csv" id="file-upload-input-107" aria-labelledby="file-selector-primary-label-105 file-selector-secondary-label106" onchange={handleFileChange}/>
+                        <label class="slds-file-selector__body" for="file-upload-input-107" id="file-selector-secondary-label106">
+                            <span class="slds-file-selector__button slds-button slds-button_neutral" style="color: #c2003c;">
+                            <lightning-icon icon-name="utility:upload" alternative-text="Upload" title="Upload" size="xx-small" class="icon-color" ></lightning-icon>
+                            {label.Upload_Files} 
+                            </span>
+                            <span class="slds-file-selector__text slds-medium-show">{label.or_Drop_Files}</span> 
+                        </label>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </template>
+    <!--NEW-->
+    <template lwc:else>
+        <lightning-file-upload  name="fileUploader" accept={acceptedFormats}  record-id={myRecordId} onuploadfinished={handleUploadFinished}></lightning-file-upload>
+    </template>
+
+    <div class="slds-form-element distance-firstToggle customPosition">
+        <label class="slds-checkbox_toggle slds-grid ">
+        <span class="slds-form-element__label slds-m-bottom_none">Booster Mode</span>
+        <input type="checkbox" name="checkbox-toggle-15" value="checkbox-toggle-15" aria-describedby="checkbox-toggle-15" onclick={activateBoosterMode} checked={boosterMode}/>
+        <span id="checkbox-toggle-151" class="slds-checkbox_faux_container" aria-live="assertive">
+            <span class="slds-checkbox_faux"></span>
+            <span class="slds-checkbox_on">{label.Enabled}</span>
+            <span class="slds-checkbox_off">{label.Disabled}</span>
+        </span>
+        </label>
+    </div>
+     <!--NEW-->
+     <!-- button Upload-->
+    <div>
+        <button class="slds-button slds-button_destructive slds-m-around--large" onclick={handleUpload} disabled={uploadDisabled}>{label.Upload_Files}</button>
+    </div>
+ 
+</template>

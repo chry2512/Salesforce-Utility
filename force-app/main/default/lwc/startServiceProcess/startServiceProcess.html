@@ -1,0 +1,30 @@
+<!--
+  @description       : Component for Start Service Creation
+  @author            : Christian Niro
+  @group             : Christian Niro
+  @last modified on  : 05-15-2024
+  @last modified by  : 
+-->
+<template>
+    
+   <template lwc:if={isButtonDisabled}>
+       <!-- Mostra il bottone Inizia -->
+      <button class="slds-button slds-button_success forth-button" onclick={handleStartButtonClick}>{label.Inizia}</button>
+   </template>
+   <template lwc:elseif={isButtonVisible}>
+       <!-- Mostra il bottone Inizia -->
+      <button class="slds-button slds-button_success forth-button opacity">{label.Inizia}</button>
+   </template>
+   
+
+   <template if:true={isProgressBarVisible}>
+       <div class="container-bar">
+           <p style="float:left;">{label.Elaboro}</p>
+           <p style="float:right;">{progress}%</p>
+           <br>
+           <br>
+           <lightning-progress-bar class="bar-features custom-progress-bar" value={progress} style="--slds-g-color-brand-base-50: var(--slds-g-color-palette-red-30) !important;"></lightning-progress-bar>
+       </div>
+   </template>
+
+</template>
