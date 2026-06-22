@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property label="Help Text" name="helpText" type="String" 
+                description="Testo di aiuto da mostrare come tooltip" />
+            <property label="Label" name="label" type="String" 
+                description="Etichetta visibile del campo" />
+            <property label="Selected Icon Name" name="selectedIconName" type="String" 
+                description="Nome dell'icona da mostrare accanto al campo" />
+            <property label="Object Label" name="objectLabel" type="String" 
+                description="Nome leggibile dell'oggetto associato" />
+            <property label="Object API Name" name="objectApiName" type="String" 
+                description="Nome API dell'oggetto Salesforce associato" />
+            <property label="Field API Name" name="fieldApiName" type="String" 
+                description="Nome API del campo principale utilizzato per la ricerca" />
+            <property label="Other Field API Name" name="otherFieldApiName" type="String" 
+                description="Nome API di un altro campo per informazioni aggiuntive" />
+            <property label="Selected Record ID" name="selectedRecordId" type="String" 
+                description="ID del record selezionato" />
+            <property label="Parent Record ID" name="parentRecordId" type="String" 
+                description="ID del record genitore per filtrare i risultati" />
+            <property label="Search Where String" name="whereString" type="String" 
+                description="Stringa per filter condition" />
+            <property label="API Name Where filter contidion String" name="whereField" type="String" 
+                description="API Name per  where filter condition" />
+            <property label="Parent Field API Name" name="parentFieldApiName" type="String" 
+                description="Nome API del campo genitore" />
+            <property label="Show Results on Focus" name="showResultsOnFocus" type="Boolean" 
+                description="Mostra i risultati quando il campo riceve il focus" />
+            <property label="Required" name="required" type="Boolean" 
+                description="Indica se il campo è obbligatorio" />   
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

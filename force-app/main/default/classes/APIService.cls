@@ -1,9 +1,9 @@
 /**
  * @description       :  Abstract Entity for general API Service Exposed
- * @author            :
+ * @author            : Christian 
  * @group             :
- * @last modified on  : 05-27-2024
- * @last modified by  : 
+ * @last modified on  : 06-22-2026
+ * @last modified by  : Christian Niro
  **/
 @RestResource(urlMapping = '/*')
 global class APIService{
